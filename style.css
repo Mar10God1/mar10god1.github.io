@@ -19,6 +19,10 @@ header {
   margin-bottom: -3em;
   font-weight: 300;
 }
+
+h1 {
+  margin-bottom: 1em;
+}
 .container {
   max-width:940px;
 }
@@ -188,4 +192,16 @@ input[type=submit]:hover {
   color: black;
   margin-top: 5em;
   margin-bottom: 5em;
+}
+
+.photos {
+  padding: 1em;
+  margin: 7em 2em 5em 2em;
+  background: rgba(0,0,0,.5);
+}
+
+.videos {
+  padding: 1em;
+  margin: 7em 2em 5em 2em;
+  background: rgba(0,0,0,.5);
 }
