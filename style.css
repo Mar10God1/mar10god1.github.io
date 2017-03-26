@@ -31,7 +31,7 @@ nav a {
 nav a:hover {
   text-decoration: none;
   color: #31363d;
-  cursor: pointer; 
+  cursor: pointer;
   -webkit-transition: color 1s;
   transition: color 1s;
 }
@@ -46,7 +46,7 @@ nav a:hover {
   transition:color 0.25s;
 }
 
-.main h1 {  
+.main h1 {
   position: relative;
   float: right;
   clear: both;
@@ -58,12 +58,12 @@ nav a:hover {
 
 
 .jumbotron {
-  background: url("http://u.realgeeks.media/josephgroupatx/12_austin-skyline-sunset1.jpg") no-repeat center center; 
+  background: url("http://u.realgeeks.media/josephgroupatx/12_austin-skyline-sunset1.jpg") no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  height: 800px;
+  height: 500em;
 }
 .img-circle {
   position: relative;
