@@ -187,4 +187,5 @@ input[type=submit]:hover {
 .form {
   color: black;
   margin-top: 5em;
+  margin-bottom: 5em;
 }
