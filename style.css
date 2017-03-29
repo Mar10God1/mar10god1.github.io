@@ -24,6 +24,10 @@ h1 {
   margin-bottom: 1em;
 }
 
+.secure {
+  clear: both;
+}
+
 .container {
   max-width:940px;
 }
