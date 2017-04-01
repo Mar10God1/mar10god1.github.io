@@ -10,6 +10,7 @@ h1 {
   font-size: 64px;
   font-weight: 100;
   margin-bottom: 20px;
+  padding-top: 110px;
 }
 
 a {
@@ -30,6 +31,11 @@ a {
   padding: 10px;
 }
 
+.download:hover {
+  color: black;
+  text-decoration: none;
+}
+
 .main p {
   font-size: 26px;
   font-weight: 200;
@@ -41,6 +47,11 @@ a {
   font-weight: 200;
   margin-bottom: 40px;
 }
+
+.section img {
+  padding: 40px;
+}
+
 }
 .section .row {
   padding-top: 50px;
@@ -51,13 +62,13 @@ a {
 .store {
   text-align: center;
   border-bottom: 0px;
-  padding-bottom:100px
+
 }
 
 .footer {
   border-top: 1px solid #dbdbdb;
   background-color: #f3f3f3;
-  padding: 20px 0px 80px;
+  padding: 20px 0px 20px;
 }
 
 .footer ul {

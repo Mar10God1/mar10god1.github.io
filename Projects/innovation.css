@@ -46,7 +46,7 @@ body {
 	font-weight: 500;
 	letter-spacing: 8px;
 	margin-bottom: 40px;
-	margin-top: 0;
+	margin-top: -20px;
 }
 
 .header a {
@@ -68,6 +68,7 @@ body {
 /* Nav */
 .nav {
   background: black;
+	font-weight: bold;
 }
 
 .nav ul {
@@ -78,12 +79,13 @@ body {
 }
 
 .nav ul li {
+	margin: 0 5px;
   color: white;
    display: inline-block;
 }
 
 .nav ul li:hover {
-  background: blue;
+  color: blue;
 }
 
 /* Main */
@@ -91,7 +93,12 @@ body {
 	margin: 80px auto;
 }
 
+.main p {
+	margin-right: 50px;
+}
 .main img {
+	margin-left: 20px;
+	margin-right: 40px;
   float: left;
   height: 180px;
 
@@ -102,14 +109,21 @@ body {
 .jumbotron {
   text-align: right;
   color: white;
-  background: url(http://pellcenter.org/wp-content/uploads/2015/06/Blue-capitol.jpg);
-	height: 600px;
+  background: url("http://pellcenter.org/wp-content/uploads/2015/06/Blue-capitol.jpg");
+	height: 400px;
 	text-align: right;
+	background-size: cover;
+
 }
 
 .jumbotron .container {
 	position: relative;
-	top: 220px;
+	top: 120px;
+	padding-right: 40px;
+}
+
+.jumbotron p {
+	padding-bottom: 20px;
 }
 
 .jumbotron a {
