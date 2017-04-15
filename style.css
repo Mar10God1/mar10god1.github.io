@@ -103,7 +103,7 @@ h1 {
 }
 
 .jumbotron {
- text-align: center;
+  text-align: center;
   background: rgba(0,0,0,0);
   position: relative;
   top: 50px;
@@ -114,6 +114,18 @@ h1 {
   margin-top: 40px;
   text-shadow: 0 2px 3px rgba(0,0,0,.4);
   text-align: center;
+}
+
+.supporting a {
+  text-decoration: none;
+  color: white;
+}
+
+
+
+.supporting a h2:hover {
+
+  color: #00FFBC;
 }
 
 .row svg {
