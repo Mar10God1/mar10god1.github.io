@@ -1,10 +1,11 @@
 'use strict';
 
 $(document).ready(function() {
-  // Put app logic here
 
+// Draggable item
   $('[data-block]').draggable({
     revert: "invalid"});
+// Droppable area & drop function
   $('[data-stack]').droppable({
     drop: function(event, ui) {
 
